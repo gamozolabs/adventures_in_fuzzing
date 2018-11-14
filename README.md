@@ -13,3 +13,7 @@ I talk a bit about fuzzing as a concept for a bit, and then transition to talkin
 # LFS
 
 This project uses large file support support in Git to handle the >100 MiB audio file. `git lfs install` should install Git LFS, and then cloning this project should "just work". Using the download-as-zip from GitHub will not work for the audio file, but will for the slides.
+
+https://github.com/git-lfs/git-lfs/wiki/Installation
+
+If you do not have LFS support you still will get the slides but not the audio.
